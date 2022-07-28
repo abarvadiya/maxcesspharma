@@ -1,0 +1,10 @@
+export const purple = "#a020f0";
+export const lavender = "#cc66ff";
+export const pink = "#F78CB7";
+export const blue = "#3333FF";
+export const blue2 = "#8951fd";
+export const lav2 = "#b163f9";
+export const rose = "#e5195f";
+export const darkGray = "#262626";
+export const sky = "#0dcaf0";
+export const green = "#16ce93";
