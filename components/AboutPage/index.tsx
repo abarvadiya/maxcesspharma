@@ -58,10 +58,10 @@ const AboutPage = () => {
       <Row>
         <DetailsWrapper>
           <MainTitle>
-            What is <TitleColor>Kahu Lifescience</TitleColor>?
+            What is <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
           <p>
-            Kahu Lifescience LLP is one of the most trusted pharmaceutical
+            Maxcess Pharma is one of the most trusted pharmaceutical
             exporter in India . We are a brand name in the pharmaceutical
             industry who are always consistent with their services and are one
             of the leading pharmaceutical exporter in India. <br />
@@ -78,14 +78,14 @@ const AboutPage = () => {
             every drug shipment is taken care of the precise packing of the
             stock with the help of latest monitoring devices for temperature
             control. Hence, the demographics quotient is very well covered by
-            Kahu Lifescience LLP.
+            Maxcess Pharma.
           </p>
         </DetailsWrapper>
         <ImageWrapper>
           <Image
             src="/imgs/about_1.svg"
             objectPosition="center"
-            alt="kahu life science about-us"
+            alt="maxcess pharma about-us"
             height={250}
             width={250}
           />
@@ -95,7 +95,7 @@ const AboutPage = () => {
       <RowRevers>
         <DetailsWrapper>
           <MainTitle>
-            What is <TitleColor>Kahu Lifescience</TitleColor>?
+            What is <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
           <p>
             Working on almost all domains of medicines, Kings Global hold an
@@ -107,7 +107,7 @@ const AboutPage = () => {
             consistent in offering an adequate supply of Generic Drugs and
             Branded Drugs to the domestic as well as international Vendors.
             <br />
-            <br /> Kahu Lifescience has emerged as an ultimate “ King “ of
+            <br /> Maxcess Pharma has emerged as an ultimate “ King “ of
             quality, cost and supply of drugs in “ Global” Market. Hence,
             justifying its name by its deeds.
             <br />
@@ -122,7 +122,7 @@ const AboutPage = () => {
           <Image
             src="/imgs/about_2.svg"
             objectPosition="center"
-            alt="kahu life science about-us"
+            alt="maxcess pharma about-us"
             height={250}
             width={250}
           />

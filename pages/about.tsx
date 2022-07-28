@@ -11,16 +11,16 @@ const About: NextPage = () => {
         <title>About</title>
         <meta
           name="description"
-          content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
         />
-        <meta property="og:title" content="About - Kahulife science" />
+        <meta property="og:title" content="About - Maxcess Pharma" />
         <meta
           property="og:description"
-          content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
         />
         <meta
           property="og:url"
-          content="https://www.kahulifescience.com/about"
+          content="https://www.maxcesspharma.com/about"
         />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />

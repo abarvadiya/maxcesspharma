@@ -152,7 +152,7 @@ const Contact = () => {
                 <S.IconContainer>
                   <HiMailOpen width={18} height={13} />
                 </S.IconContainer>
-                <S.IconText>kahulifescience@gmail.com</S.IconText>
+                <S.IconText>maxcesspharma@gmail.com</S.IconText>
               </S.Li>
             </S.Ul>
           </div>
@@ -161,7 +161,7 @@ const Contact = () => {
               <S.SocialLi>
                 <S.SocialWrapper
                   color="#385594"
-                  href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2Fkahulifescience%2F"
+                  href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2Fmaxcesspharma%2F"
                   target="_blank"
                 >
                   <FaFacebookF size={20} />
@@ -170,7 +170,7 @@ const Contact = () => {
               <S.SocialLi>
                 <S.SocialWrapper
                   color="#fb3958"
-                  href="https://www.instagram.com/kahulifescience/"
+                  href="https://www.instagram.com/maxcesspharma/"
                   target="_blank"
                 >
                   <AiFillInstagram size={20} />

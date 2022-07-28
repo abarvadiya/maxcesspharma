@@ -12,19 +12,19 @@ const Contact: NextPage = () => {
         <title>Global Presence</title>
         <meta
           name="description"
-          content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
         />
         <meta
           property="og:title"
-          content="Global Presence - Kahulife science"
+          content="Global Presence - Maxcess Pharma"
         />
         <meta
           property="og:description"
-          content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
         />
         <meta
           property="og:url"
-          content="https://www.kahulifescience.com/global-presence"
+          content="https://www.maxcesspharma.com/global-presence"
         />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />

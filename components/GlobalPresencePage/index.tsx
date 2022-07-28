@@ -27,7 +27,7 @@ const GlobalPresencePage = () => {
       <Image
         src="/imgs/map_expand.svg"
         objectPosition="center"
-        alt="kahu life global presence"
+        alt="maxcess pharma global presence"
         height={55}
       />
     </>

@@ -81,14 +81,14 @@ export default class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
+            content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
           />
-          <meta property="og:title" content="Kahulife Science" />
+          <meta property="og:title" content="Maxcess Pharma" />
           <meta
             property="og:description"
-            content="Kahu life science LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
+            content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
           />
-          <meta property="og:url" content="https://www.kahulifescience.com" />
+          <meta property="og:url" content="https://www.maxcesspharma.com" />
           <meta property="og:type" content="website" />
           <link rel="icon" href="/favicon.ico" />
 

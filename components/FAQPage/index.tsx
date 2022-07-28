@@ -16,7 +16,7 @@ const FAQPage = () => {
         <Image
           src="/imgs/faq.svg"
           objectPosition="center"
-          alt="kahu life science faq"
+          alt="maxcess pharma faq"
         />
       </S.ContectInto>
       <S.QuestionWrapper className="smoll-scrollbar">

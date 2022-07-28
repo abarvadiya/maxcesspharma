@@ -18,17 +18,17 @@ const Footer = () => {
           src="/favicon.ico"
           height={54}
           width={54}
-          alt="kahu life science"
+          alt="maxcess pharma"
         />
         <Image
           src="/imgs/logo_text.svg"
           height={32}
           width={170}
-          alt="kahu life science"
+          alt="maxcess pharma"
         />
 
         <S.Discription>
-          Kahu Lifescience LLP is one of the most trusted pharmaceutical
+          Maxcess Pharma is one of the most trusted pharmaceutical
           exporter in India . We are a brand name in the pharmaceutical industry
           who are always consistent with their services0 and are one of the
           leading pharmaceutical exporter in India.
@@ -38,7 +38,7 @@ const Footer = () => {
             <MS.SocialLi>
               <MS.SocialWrapper
                 color="#385594"
-                href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2Fkahulifescience%2F"
+                href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2Fmaxcesspharma%2F"
                 target="_blank"
               >
                 <FaFacebookF size={20} />
@@ -47,7 +47,7 @@ const Footer = () => {
             <MS.SocialLi>
               <MS.SocialWrapper
                 color="#fb3958"
-                href="https://www.instagram.com/kahulifescience/"
+                href="https://www.instagram.com/maxcesspharma/"
                 target="_blank"
               >
                 <AiFillInstagram size={20} />
@@ -110,7 +110,7 @@ const Footer = () => {
               </S.ContactIconWrapper>
               &nbsp;
               <a href="mailto:someone@example.com">
-                <S.LinkText>kahulifescience@gmail.com</S.LinkText>
+                <S.LinkText>maxcesspharma@gmail.com</S.LinkText>
               </a>
             </MS.Li>
           </MS.Ul>
