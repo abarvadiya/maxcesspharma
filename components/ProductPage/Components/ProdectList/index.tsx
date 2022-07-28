@@ -12,9 +12,9 @@ const ProductList = () => {
   const [gridView, setGridView] = useState<boolean>(true);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  useEffect(() => {
-    localStorage.setItem("products", JSON.stringify(products));
-  }, [products]);
+  // useEffect(() => {
+  //   localStorage.setItem("products", JSON.stringify(products));
+  // }, [products]);
 
   const fetchProducts = async () => {
     let data = localStorage.getItem("data");
@@ -54,9 +54,9 @@ const ProductList = () => {
       {isLoading ? (
         <h1 className="loading" />
       ) : gridView ? (
-        <GridView />
+        <GridView products={products} />
       ) : (
-        <ListView />
+        <ListView products={products} />
       )}
     </section>
   );

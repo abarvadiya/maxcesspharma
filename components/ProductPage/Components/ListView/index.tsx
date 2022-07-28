@@ -61,13 +61,13 @@ const Wrapper = styled.section`
   }
 `;
 
-const ListView = () => {
-  const [products, setProducts] = useState<Array<ProductI>>([]);
+const ListView = ({ products }: any) => {
+  // const [products, setProducts] = useState<Array<ProductI>>([]);
 
-  useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("products") as any);
-    items && setProducts(items);
-  }, []);
+  // useEffect(() => {
+  //   const items = JSON.parse(localStorage.getItem("products") as any);
+  //   items && setProducts(items);
+  // }, []);
 
   return (
     <Wrapper>

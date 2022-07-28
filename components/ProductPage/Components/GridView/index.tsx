@@ -3,13 +3,13 @@ import styled from "styled-components";
 import { ProductI } from "../ListView";
 import Product from "../Product";
 
-const GridView = () => {
-  const [products, setProducts] = useState<Array<ProductI>>([]);
+const GridView = ({ products }: any) => {
+  // const [products, setProducts] = useState<Array<ProductI>>([]);
 
-  useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("products") as any);
-    items && setProducts(items);
-  }, []);
+  // useEffect(() => {
+  //   const items = JSON.parse(localStorage.getItem("products") as any);
+  //   items && setProducts(items);
+  // }, []);
 
   if (products.length < 1) {
     return <h5 style={{ textTransform: "none" }}>Sorry, no products found.</h5>;
