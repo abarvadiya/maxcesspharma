@@ -73,6 +73,7 @@ const ProductPage = () => {
                 </span>{" "}
                 {topicList.sort().map((item: string) => (
                   <S.Chip
+                    key={item}
                     style={{
                       backgroundColor: `${
                         item === topic ? green : "transparent"
