@@ -12,7 +12,7 @@ const Teams = () => {
       name: "Mr Vishwas Jani",
       key: "vishwas",
       designation: "Founder & CEO",
-      details: `The founder & ceo of Maxcess Pharma, Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gaandhinagar, Gujarat.`,
+      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gaandhinagar, Gujarat.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
@@ -23,7 +23,7 @@ const Teams = () => {
       name: "Mrs Priyanka Jani",
       key: "priyanka",
       designation: "Co-founder",
-      details: `Co-founder of maxcess pharma, Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
+      details: `Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
       profile: {
         src: "/imgs/users/priyanka.jpeg",
         size: 250,
@@ -34,7 +34,8 @@ const Teams = () => {
       name: "Mr Pankaj Chodhari",
       key: "pankaj",
       designation: "Co-founder",
-      details: `Co-founder of maxcess pharma, Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
+      details: `Mr Pankaj came from a humble farmer family from Mehsana, Gujarat. In his early days he worked as a collection executive in one small collection agency in Mehsana Gujarat.
+       `,
       profile: {
         src: "/imgs/users/pankaj.jpeg",
         size: 250,
