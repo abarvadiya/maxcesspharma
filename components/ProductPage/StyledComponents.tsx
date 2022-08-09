@@ -83,6 +83,6 @@ export const SpinnerWrapper = styled.div`
   margin: 25%;
 
   @media only screen and (max-width: 768px) {
-    margin: 40%;
+    margin: 70% 0;
   }
 `;
