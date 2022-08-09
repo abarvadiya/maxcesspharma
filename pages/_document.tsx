@@ -68,8 +68,6 @@ export default class MyDocument extends Document {
             content="text/html; charset=ISO-8859-1"
           />
 
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-
           <meta name="googlebot" content="noindex" />
           <meta name="robots" content="noindex,nofollow" />
           <meta name="robots" content="max-image-preview:large" />

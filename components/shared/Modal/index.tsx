@@ -38,7 +38,19 @@ const TermsAndConditions = ({
     if ("pankaj" === user) {
       setTitle("Mr Pankaj Chodhari");
       setDetils(
-        `He envisions maxcess pharma developing vastly in the coming years in both the domestic and international markets. The company continues to excel under his supervision and is, therefore, able to branch out into many other ventures apart from prescription pharmaceuticals such as surgical and medical devices, cosmetic and personal care products. Through this, he is able to meet the requirements of global healthcare demand.`
+        `Pankajkumar V. Chaudhari came from a humble
+        farmer family from Mehsana, Gujarat. In his early
+        days he worked as a collection executive in one small
+        collection agency in Mehsana Gujarat. <br/><br/>
+        In 2002, he started a small-scale enterprise which
+        was established to offer a quality services to almost
+        all financial institutions and banks, without
+        compromising on the quality of services. <br/><br/> Pankajbhai
+        named his first unit Riya Agency after his daughter
+        Riya which in less than a decade turned in to a group
+        dominant player in various fields starting from
+        Financial Recovery Agency to Automobile dealership
+        and Non Banking Finance Companies. `
       );
     }
   };

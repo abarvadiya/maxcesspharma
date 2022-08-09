@@ -27,10 +27,6 @@ const Product: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FullLayout>
-        <br />
-        <br />
-        <br />
-        <br />
         <ProductPage />
       </FullLayout>
     </main>
