@@ -39,11 +39,11 @@ const Contact = () => {
 
     try {
       const request = await axios.post(
-        "https://api.airtable.com/v0/appq48Qe8LgxSLCoc/contact",
+        "https://api.airtable.com/v0/apphIEQTHkqMh8MRI/contact",
         { records: [{ fields: { ...contactFormValues } }] },
         {
           headers: {
-            Authorization: "Bearer keyMymW7eT0XyeEbE",
+            Authorization: "Bearer keyukQVpjsE3Vwn2S",
           },
         }
       );
