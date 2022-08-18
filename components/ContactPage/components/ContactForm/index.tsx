@@ -146,7 +146,7 @@ const Contact = () => {
                 <S.IconContainer>
                   <BsFillTelephoneFill size={12} />
                 </S.IconContainer>
-                <S.IconText>+91 0000000000</S.IconText>
+                <S.IconText>+91 8469377741</S.IconText>
               </S.Li>
               <S.Li>
                 <S.IconContainer>
@@ -197,12 +197,12 @@ const Contact = () => {
 
       <div style={{ width: "100%", marginTop: "50px" }}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14681.85027620312!2d72.4952314!3d23.0801568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf955692e13272fcf!2sScience%20City%20ahmedabad!5e0!3m2!1sen!2sin!4v1652478372621!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.1020057053247!2d72.52765421491914!3d23.020026584954337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d0fa2cfcf5%3A0x708257b9f52da4e7!2sHimalaya%20Emerald!5e0!3m2!1sen!2ssg!4v1660826500224!5m2!1sen!2ssg"
           width="100%"
           height="400"
           frameBorder="0"
           style={{ border: 0 }}
-        ></iframe>
+        />
       </div>
     </section>
   );

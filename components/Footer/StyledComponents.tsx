@@ -43,7 +43,7 @@ export const Discription = styled.p`
 export const LinkWrapper = styled.div`
   display: flex;
   gap: 10rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 
   @media only screen and (max-width: 740px) {
     display: grid;
@@ -75,4 +75,11 @@ export const IconWrapper = styled.div`
 export const ContactIconWrapper = styled.div`
   width: 1.7rem;
   text-align: center;
+`;
+export const CopyrightSection = styled.div`
+  text-align: center;
+  color: #d7d7d7;
+  font-size: 14px;
+  padding: 13px 0px;
+  background-color: #3f3f3f;
 `;

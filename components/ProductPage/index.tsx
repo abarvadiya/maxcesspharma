@@ -24,6 +24,7 @@ const ProductPage = () => {
           }
         );
         if (response) {
+          // setTopic(response.data.records[0]["fields"]["type"]);
           setproducts(
             response.data.records.map((product: any) => product.fields)
           );
@@ -100,7 +101,7 @@ const ProductPage = () => {
                   .map(({ name, contents, packing }: any, index: number) => (
                     <S.Tr key={name + index}>
                       <S.Td>{index + 1}</S.Td>
-                      <S.Td>{name}</S.Td>
+                      <S.Td style={{ textAlign: "center" }}>{name}</S.Td>
                       <S.Td>{contents}</S.Td>
                       <S.Td>{packing}</S.Td>
                     </S.Tr>

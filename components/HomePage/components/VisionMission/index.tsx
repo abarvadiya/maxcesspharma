@@ -8,16 +8,18 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            custom furniture <br /> built only for you
+            Maxcess
+            <br /> Pharmaceuticals
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum debitis consectetur reprehenderit non aliquam voluptates
-            dolore aut vero consequuntur.
+            Maxcess pharma believes in meeting the unmet medical needs of
+            Healthcare Industry with innovative and more importantly quality
+            products. We make sure of maintaining the best quality check backed
+            with strong R&#38;D for every product that reaches the end consumer.
           </p>
         </article>
         <div className="services-center">
-          {services.map((service) => {
+          {services.map(service => {
             const { id, icon, title, text } = service;
             return (
               <article className="service" key={id}>

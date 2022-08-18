@@ -12,7 +12,7 @@ const Teams = () => {
       name: "Mr Vishwas Jani",
       key: "vishwas",
       designation: "Founder & CEO",
-      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gaandhinagar, Gujarat.`,
+      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gandhinagar, Gujarat.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
@@ -20,28 +20,61 @@ const Teams = () => {
       },
     },
     {
-      name: "Mrs Priyanka Jani",
-      key: "priyanka",
-      designation: "Co-founder",
-      details: `Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
+      name: "Mr Harsh Raval",
+      key: "harsh",
+      designation: "_",
+      details: `Mr. Harsh Raval from the Gujarat, India.`,
       profile: {
-        src: "/imgs/users/priyanka.jpeg",
+        src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
-        alt: "maxcess pharma priyanka jani",
+        alt: "maxcess pharma harsh raval",
       },
     },
     {
-      name: "Mr Pankaj Chodhari",
-      key: "pankaj",
-      designation: "Co-founder",
-      details: `Mr Pankaj came from a humble farmer family from Mehsana, Gujarat. In his early days he worked as a collection executive in one small collection agency in Mehsana Gujarat.
-       `,
+      name: "Mr Hasmukh Chodhari",
+      key: "hasmukh",
+      designation: "_",
+      details: `Mr Hasmukh Chodhari from the Gujarat, India.`,
       profile: {
-        src: "/imgs/users/pankaj.jpeg",
+        src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
-        alt: "maxcess pharma priyanka jani",
+        alt: "maxcess pharma harsh raval",
       },
     },
+    {
+      name: "Mr Sanjay Chodhari",
+      key: "sanjay",
+      designation: "_",
+      details: `Mr Sanjay Chodhari from the Gujarat, India.`,
+      profile: {
+        src: "/imgs/users/vishwas_jani.jpeg",
+        size: 250,
+        alt: "maxcess pharma harsh raval",
+      },
+    },
+    // {
+    //   name: "Mrs Priyanka Jani",
+    //   key: "priyanka",
+    //   designation: "Co-founder",
+    //   details: `Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
+    //   profile: {
+    //     src: "/imgs/users/priyanka.jpeg",
+    //     size: 250,
+    //     alt: "maxcess pharma priyanka jani",
+    //   },
+    // },
+    // {
+    //   name: "Mr Pankaj Chodhari",
+    //   key: "pankaj",
+    //   designation: "Co-founder",
+    //   details: `Mr Pankaj came from a humble farmer family from Mehsana, Gujarat. In his early days he worked as a collection executive in one small collection agency in Mehsana Gujarat.
+    //    `,
+    //   profile: {
+    //     src: "/imgs/users/pankaj.jpeg",
+    //     size: 250,
+    //     alt: "maxcess pharma priyanka jani",
+    //   },
+    // },
   ];
   // width: 90vw;
   return (
@@ -51,7 +84,7 @@ const Teams = () => {
           <S.Banner>
             <S.ProfileImage>
               <Image
-                src={profile.src}
+                src={"/imgs/partnears/avtar.jpg" || profile.src}
                 objectPosition="center"
                 alt={profile.alt}
                 height={profile.size}

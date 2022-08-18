@@ -1,53 +1,38 @@
 const questions = [
   {
     id: 1,
-    title: "Do I have to allow the use of cookies?",
-    info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
+    title: "What about the Inquiry and how it can be placed?",
+    info: "Yes, Inquiry can be place online (as direct contact is mentioned on website) or directly mail to us on given e-mail.",
   },
   {
     id: 2,
-    title: "How do I change my My Page password?",
-    info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.",
+    title: "Will there be changes in product specification?",
+    info: "Product specifications remain unchanged but we are committed to match our customer need so we can produce the other related products as per customer requirement.",
   },
   {
     id: 3,
-    title: "What is BankID?",
-    info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.",
+    title: "Will there be changes in batch numbering?",
+    info: "Batch numbering changed according to code of product.",
   },
   {
     id: 4,
-    title: "Whose birth number can I use?",
-    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
+    title: "How sample requests can be done?",
+    info: "Samples request direct can be made through email, we will sent out from stock and customer will be informed accordingly.",
   },
   {
     id: 5,
-    title: "When do I recieve a password ordered by letter?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
+    title: "From where can I get the product Information & Specification?",
+    info: "Visit our product page or menu to get the entire information such as: product Name, their specification, packing etc.",
   },
   {
-    id: 1,
-    title: "Do I have to allow the use of cookies?",
-    info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
+    id: 6,
+    title: "What is the packing of the material?",
+    info: "Visit on Product Menu to get the exact idea about the Product and Packing & Storage.",
   },
   {
-    id: 2,
-    title: "How do I change my My Page password?",
-    info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.",
-  },
-  {
-    id: 3,
-    title: "What is BankID?",
-    info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.",
-  },
-  {
-    id: 4,
-    title: "Whose birth number can I use?",
-    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
-  },
-  {
-    id: 5,
-    title: "When do I recieve a password ordered by letter?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
+    id: 7,
+    title: "Where can I check or find new products?",
+    info: "Check out the product page you can get the new added products.",
   },
 ];
 export default questions;

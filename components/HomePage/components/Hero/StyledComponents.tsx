@@ -80,7 +80,6 @@ export const TitleImageContainer = styled.div`
   width: 100%;
   height: 30%;
   position: relative;
-  display: inherit;
   top: 8.2rem;
 
   @media only screen and (max-width: 768px) {
@@ -93,8 +92,11 @@ export const Span = styled.span`
 `;
 
 export const ButtonWrapper = styled.div`
+  position: relative;
+  top: 2.6rem;
   @media only screen and (max-width: 768px) {
     display: flex;
+    top: 1.6rem;
     justify-content: center;
     width: 100%;
     left: 0;

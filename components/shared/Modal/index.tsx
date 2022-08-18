@@ -28,6 +28,18 @@ const TermsAndConditions = ({
       During this time is when he knew starting his own business was going to be his main goal in life. However, before jumping into the entrepreneurship world instinctively, he spent a couple of years obtaining work experience to enrich his constructive knowledge of the international pharmaceutical sector.he is also involved in spiritual activities such as a “Devi Bhagwat”,havan and many others at ladol and Gandhinagar.He is a chairperson in Harsiddhi trust at Gandhinagar.also pithadhish in Harsiddhi ashram Dwarka Gujarat,he is writer also he wrote a book the name “Mari ma Harsiddhi “and “shri yantra.”<br/> <br/>
       He envisions maxcess pharma developing vastly in the coming years in both the domestic and international markets. The company continues to excel under his supervision and is, therefore, able to branch out into many other ventures apart from prescription pharmaceuticals such as surgical and medical devices, cosmetic and personal care products. Through this, he is able to meet the requirements of global healthcare demand.`);
     }
+    if ("harsh" === user) {
+      setTitle("Mr Harsh Raval");
+      setDetils(`coming soon...`);
+    }
+    if ("hasmukh" === user) {
+      setTitle("Mr Hasmukh chodhari");
+      setDetils(`coming soon...`);
+    }
+    if ("sanjay" === user) {
+      setTitle("Mr Sanjay chodhari");
+      setDetils(`coming soon...`);
+    }
     if ("priyanka" === user) {
       setTitle("Mrs Priyanka Jani");
       setDetils(`Co-founder of maxcess pharma , Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019. Later She complained master in medical & surgical nursing in sub speciality in cardiovascular & thoracic care from Gujarat university .she join maxcess pharma in 2022 <br/> <br/>

@@ -21,10 +21,11 @@ const Hero = () => {
             loading="lazy"
           />
         </S.TitleImageContainer>
-        <Link href="/contact" passHref>
-          <S.Button>Contact Us</S.Button>
-        </Link>
-        <S.ButtonWrapper></S.ButtonWrapper>
+        <S.ButtonWrapper>
+          <Link href="/contact" passHref>
+            <S.Button>Contact Us</S.Button>
+          </Link>
+        </S.ButtonWrapper>
       </S.TitleContainer>
       <S.ImageWrapper>
         <S.ImageContainer>

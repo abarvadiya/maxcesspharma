@@ -20,7 +20,7 @@ const GlobalPresencePage = () => {
           expand more with a clear intention to grow and improve world&apos;s
           economy. Want to know more about our global presence? Mail us at
           &nbsp;
-          <a href="mailto:someone@example.com">info@techreceptives.com</a>
+          <a href="mailto:maxcesspharma@gmail.com">maxcesspharma@gmail.com</a>
         </S.Text>
       </S.DetailsWrapper>
 

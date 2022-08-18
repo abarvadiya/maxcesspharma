@@ -61,10 +61,10 @@ const AboutPage = () => {
             What is <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
           <p>
-            Maxcess Pharma is one of the most trusted pharmaceutical
-            exporter in India . We are a brand name in the pharmaceutical
-            industry who are always consistent with their services and are one
-            of the leading pharmaceutical exporter in India. <br />
+            Maxcess Pharma is one of the most trusted pharmaceutical exporter in
+            India . We are a brand name in the pharmaceutical industry who are
+            always consistent with their services and are one of the leading
+            pharmaceutical exporter in India. <br />
             <br />
             We are a government authorized company who are experts in providing
             a premium platform to ensure all kinds of pharmaceutical supplies
@@ -95,7 +95,7 @@ const AboutPage = () => {
       <RowRevers>
         <DetailsWrapper>
           <MainTitle>
-            What is <TitleColor>Maxcess Pharma</TitleColor>?
+            Why <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
           <p>
             Working on almost all domains of medicines, Kings Global hold an

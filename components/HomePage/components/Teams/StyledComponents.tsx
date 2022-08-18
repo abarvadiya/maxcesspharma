@@ -3,7 +3,8 @@ import styled, { css } from "styled-components";
 
 export const Section = styled.section`
   display: flex;
-  gap: 4rem;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
   margin-bottom: 4rem;
 
@@ -19,7 +20,7 @@ export const CardWrapper = styled.div`
   text-align: center;
   overflow: hidden;
   padding: 0 0 32px;
-  width: 350px;
+  width: 320px;
   max-width: 350px;
   font-family: Quicksand, arial, sans-serif;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -5px;
@@ -35,7 +36,7 @@ export const Banner = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 11rem;
+  height: 10rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -118,7 +119,7 @@ export const CardIcon = styled.span<IconI>`
     opacity: 0.95;
   }
 
-  ${(props) =>
+  ${props =>
     props.big &&
     css`
       font-size: 26px;
