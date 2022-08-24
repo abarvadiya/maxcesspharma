@@ -112,11 +112,12 @@ function index() {
     <Row>
       {datas.map((item, index) => (
         <div
+          key={index}
           data-aos-duration={`${index}000`}
           data-aos-offset={`${index}00`}
           data-aos="fade-up"
         >
-          <Card key={index} {...item} />
+          <Card {...item} />
         </div>
       ))}
     </Row>
