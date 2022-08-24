@@ -12,7 +12,7 @@ const Teams = () => {
       name: "Mr Vishwas Jani",
       key: "vishwas",
       designation: "Founder & CEO",
-      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gandhinagar, Gujarat.`,
+      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gandhinagar, Gujar+at.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
@@ -22,7 +22,7 @@ const Teams = () => {
     {
       name: "Mr Harsh Raval",
       key: "harsh",
-      designation: "_",
+      designation: "Founder",
       details: `Mr. Harsh Raval from the Gujarat, India.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
@@ -80,7 +80,12 @@ const Teams = () => {
   return (
     <S.Section className="App">
       {datas.map(({ name, key, designation, details, profile }) => (
-        <S.CardWrapper key={key}>
+        <S.CardWrapper
+          key={key}
+          data-aos-duration="2500"
+          data-aos-offset="200"
+          data-aos="fade-up"
+        >
           <S.Banner>
             <S.ProfileImage>
               <Image

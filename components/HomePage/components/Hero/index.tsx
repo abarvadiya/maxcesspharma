@@ -9,8 +9,20 @@ const Hero = () => {
   return (
     <S.Wrapper>
       <S.TitleContainer>
-        <S.Title>Healthy Life!</S.Title>
-        <S.Title>&nbsp; &nbsp; Healthy World!</S.Title>
+        <S.Title
+          data-aos-duration="1000"
+          data-aos-offset="100"
+          data-aos="fade-up"
+        >
+          Healthy Life!
+        </S.Title>
+        <S.Title
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos="fade-up"
+        >
+          &nbsp; &nbsp; Healthy World!
+        </S.Title>
 
         <S.TitleImageContainer>
           <Image
@@ -27,7 +39,11 @@ const Hero = () => {
           </Link>
         </S.ButtonWrapper>
       </S.TitleContainer>
-      <S.ImageWrapper>
+      <S.ImageWrapper
+        data-aos-duration="2000"
+        data-aos-offset="200"
+        data-aos="fade-left"
+      >
         <S.ImageContainer>
           <Image
             src={"/imgs/hero_2.svg"}

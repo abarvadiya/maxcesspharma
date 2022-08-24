@@ -111,7 +111,13 @@ function index() {
   return (
     <Row>
       {datas.map((item, index) => (
-        <Card key={index} {...item} />
+        <div
+          data-aos-duration={`${index}000`}
+          data-aos-offset={`${index}00`}
+          data-aos="fade-up"
+        >
+          <Card key={index} {...item} />
+        </div>
       ))}
     </Row>
   );

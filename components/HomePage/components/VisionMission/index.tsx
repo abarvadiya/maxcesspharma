@@ -22,7 +22,13 @@ const Services = () => {
           {services.map(service => {
             const { id, icon, title, text } = service;
             return (
-              <article className="service" key={id}>
+              <article
+                data-aos-duration="4000"
+                data-aos-offset="400"
+                data-aos={title === "Vision" ? "fade-up-right" : "fade-up-left"}
+                className="service"
+                key={id}
+              >
                 <span className="icon">{icon}</span>
                 <h4>{title}</h4>
                 <p>{text}</p>
