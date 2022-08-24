@@ -79,12 +79,12 @@ export default class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
+            content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
           />
           <meta property="og:title" content="Maxcess Pharma" />
           <meta
             property="og:description"
-            content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
+            content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
           />
           <meta property="og:url" content="https://www.maxcesspharma.com" />
           <meta property="og:type" content="website" />

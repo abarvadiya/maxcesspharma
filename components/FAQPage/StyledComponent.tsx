@@ -50,7 +50,7 @@ export const MainTitle = styled.h3`
   font-weight: 500;
   padding-bottom: 1rem;
 
-  @media only screen and (mix-width: 740px) {
+  @media only screen and (max-width: 740px) {
     font-size: 1.75rem;
   }
 `;

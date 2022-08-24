@@ -4,14 +4,14 @@ export const Container = styled.section`
   margin: 8rem;
   padding: 0;
 
-  @media only screen and (mix-width: 740px) {
+  @media only screen and (max-width: 740px) {
     margin: 0 !important;
   }
 `;
 
 export const DetailsWrapper = styled.div`
   padding: 0rem 10rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10px;
 
   @media only screen and (max-width: 740px) {
     padding: 0 !important;
@@ -26,11 +26,30 @@ export const MainTitle = styled.h3`
   padding-bottom: 1.5rem;
   text-align: center;
 
-  @media only screen and (mix-width: 740px) {
+  @media only screen and (max-width: 740px) {
     font-size: 1.75rem;
   }
 `;
 
 export const Text = styled.p`
   padding-bottom: 1rem;
+`;
+
+export const ImageWrapper = styled.div`
+  padding: 0 5rem;
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0px;
+    margin-bottom: 2rem;
+  }
+`;
+
+export const CountyTable = styled.div`
+  padding: 0 5rem;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0px;
+    margin-bottom: 2rem;
+  }
 `;

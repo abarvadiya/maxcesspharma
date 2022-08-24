@@ -12,12 +12,12 @@ const Product: NextPage = () => {
         <title>FAQ</title>
         <meta
           name="description"
-          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India"
         />
         <meta property="og:title" content="FAQ - Maxcess Pharma" />
         <meta
           property="og:description"
-          content="Maxcess Pharma LLP is a limited liability partnership limited company based in Ahmedabad, India"
+          content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India"
         />
         <meta property="og:url" content="https://www.maxcesspharma.com/faq" />
         <meta property="og:type" content="website" />

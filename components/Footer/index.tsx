@@ -34,7 +34,7 @@ const Footer = () => {
               <MS.SocialLi>
                 <MS.SocialWrapper
                   color="#385594"
-                  href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2Fmaxcesspharma%2F"
+                  href="https://www.facebook.com/kahulifescience"
                   target="_blank"
                 >
                   <FaFacebookF size={20} />
@@ -43,7 +43,7 @@ const Footer = () => {
               <MS.SocialLi>
                 <MS.SocialWrapper
                   color="#fb3958"
-                  href="https://www.instagram.com/maxcesspharma/"
+                  href="https://www.instagram.com/maxcess_pharmaceutical_"
                   target="_blank"
                 >
                   <AiFillInstagram size={20} />
@@ -57,7 +57,7 @@ const Footer = () => {
               <MS.SocialLi>
                 <MS.SocialWrapper
                   color="#1976d2"
-                  href="https://www.linkedin.com/in/vishwas-jani-81b5ba18a/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
+                  href="https://www.linkedin.com/company/kahu-life-science"
                   target="_blank"
                 >
                   <FaLinkedinIn size={20} />

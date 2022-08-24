@@ -31,10 +31,10 @@ const Teams = () => {
       },
     },
     {
-      name: "Mr Hasmukh Chodhari",
+      name: "Mr Hasmukh Chaudhari",
       key: "hasmukh",
       designation: "_",
-      details: `Mr Hasmukh Chodhari from the Gujarat, India.`,
+      details: `Mr Hasmukh Chaudhari from the Gujarat, India.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
@@ -42,41 +42,17 @@ const Teams = () => {
       },
     },
     {
-      name: "Mr Sanjay Chodhari",
+      name: "Mr Sanjay Chaudhari",
       key: "sanjay",
       designation: "_",
-      details: `Mr Sanjay Chodhari from the Gujarat, India.`,
+      details: `Mr Sanjay Chaudhari from the Gujarat, India.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,
         alt: "maxcess pharma harsh raval",
       },
     },
-    // {
-    //   name: "Mrs Priyanka Jani",
-    //   key: "priyanka",
-    //   designation: "Co-founder",
-    //   details: `Mrs Priyanka  vishwas jani, graduated from HNGU with a degree in Bachelors of Nursing in 2019.`,
-    //   profile: {
-    //     src: "/imgs/users/priyanka.jpeg",
-    //     size: 250,
-    //     alt: "maxcess pharma priyanka jani",
-    //   },
-    // },
-    // {
-    //   name: "Mr Pankaj Chodhari",
-    //   key: "pankaj",
-    //   designation: "Co-founder",
-    //   details: `Mr Pankaj came from a humble farmer family from Mehsana, Gujarat. In his early days he worked as a collection executive in one small collection agency in Mehsana Gujarat.
-    //    `,
-    //   profile: {
-    //     src: "/imgs/users/pankaj.jpeg",
-    //     size: 250,
-    //     alt: "maxcess pharma priyanka jani",
-    //   },
-    // },
   ];
-  // width: 90vw;
   return (
     <S.Section className="App">
       {datas.map(({ name, key, designation, details, profile }) => (
