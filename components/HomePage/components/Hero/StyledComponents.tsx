@@ -5,20 +5,22 @@ import { CardButton } from "../Teams/StyledComponents";
 export const Wrapper = styled.section`
   position: relative;
   display: flex;
-  height: 39rem;
+  height: 40rem;
   margin-bottom: 10rem;
+  background-color: bisque;
 
   @media only screen and (max-width: 768px) {
     margin-bottom: 0;
     margin-top: 2rem;
     height: 27rem;
+    background-color: bisque;
   }
 `;
 
 export const TitleContainer = styled.div`
   justify-content: center;
   width: 50%;
-  padding-top: 16rem;
+  // padding-top: 4rem;
   padding-left: 4rem;
 
   @media only screen and (max-width: 768px) {

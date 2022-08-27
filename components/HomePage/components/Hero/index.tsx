@@ -44,7 +44,7 @@ const Hero = () => {
         data-aos-offset="200"
         data-aos="fade-left"
       >
-        <S.ImageContainer>
+        {/* <S.ImageContainer> */}
           <Image
             src={"/imgs/hero_2.svg"}
             height={20}
@@ -52,7 +52,7 @@ const Hero = () => {
             alt="site logo"
             loading="lazy"
           />
-        </S.ImageContainer>
+        {/* </S.ImageContainer> */}
       </S.ImageWrapper>
     </S.Wrapper>
   );

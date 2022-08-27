@@ -3,6 +3,7 @@ import { BiHome } from "react-icons/bi";
 import { ImInfo } from "react-icons/im";
 import { FaTelegramPlane, FaGlobeAmericas, FaQuestion } from "react-icons/fa";
 import { RiProductHuntLine } from "react-icons/ri";
+import { MdPrecisionManufacturing } from "react-icons/md";
 
 const linksData = [
   {
@@ -14,6 +15,11 @@ const linksData = [
     title: "Products",
     url: "/products",
     Icon: <RiProductHuntLine size={16} />,
+  },
+  {
+    title: "Manufacturing",
+    url: "/manufacturing",
+    Icon: <MdPrecisionManufacturing size={16} />,
   },
   {
     title: "Global Presence",

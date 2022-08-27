@@ -6,18 +6,20 @@ import Hero from "./components/Hero";
 import Patnears from "./components/Patnears";
 import VisionMission from "./components/VisionMission";
 import CountUp from "./components/Counter";
-import Slider from "./components/Slider";
 import ImageSlider from "./components/ImageSlider";
 import Teams from "./components/Teams";
+import GetIntoTouch from "./components/GetIntoTouch";
 
 const Homepage = () => {
   return (
     <S.Wrapper>
       {/* <Slider /> */}
-      <Hero />
       {/* <Patnears /> */}
-      <CountUp />
       <ImageSlider />
+      <CountUp />
+
+      <GetIntoTouch />
+      {/* <Hero /> */}
       <Teams />
       <VisionMission />
     </S.Wrapper>

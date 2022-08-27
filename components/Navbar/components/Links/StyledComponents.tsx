@@ -62,5 +62,5 @@ export const LinkAnchor = styled.a<TextI>`
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  padding: 1.5rem 0.8rem;
+  padding: 1.5rem 0rem;
 `;

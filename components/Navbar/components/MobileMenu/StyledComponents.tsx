@@ -26,7 +26,7 @@ export const MenuContainer = styled.div`
   background-color: white;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.31);
   display: none;
-  padding-top: 10rem;
+  padding-top: 8rem;
 
   @media only screen and (max-width: 1100px) {
     display: block;
@@ -60,7 +60,7 @@ export const Text = styled.span`
 
 export const MenuButton = styled.button`
   width: 100%;
-  padding: 0.8rem 4rem;
+  padding: 0.4rem 4rem;
 
   // @media only screen and (max-width: 768px) {
   //   padding: 2rem;
