@@ -51,6 +51,8 @@ const Wrapper = styled.section`
 
   @media only screen and (max-width: 740px) {
     background: none;
+    margin-bottom: 16%;
+    padding: 0;
   }
 
   .header h3 {

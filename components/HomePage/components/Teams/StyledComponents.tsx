@@ -6,9 +6,10 @@ export const Section = styled.section`
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin: 6rem 0;
 
   @media only screen and (max-width: 740px) {
+    margin: 16% 0;
     flex-direction: column;
     justify-content: center;
     display: grid;

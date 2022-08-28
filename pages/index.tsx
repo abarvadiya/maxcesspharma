@@ -5,6 +5,7 @@ import Head from "next/head";
 // Components
 import FullLayout from "../components/FullLayout";
 import HomePage from "../components/HomePage";
+import ImageSlider from "../components/HomePage/components/ImageSlider";
 
 const Home: NextPage = () => {
   return (
@@ -46,6 +47,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <title>Maxcess Pharma</title>
       </Head>
+      <ImageSlider />
       <FullLayout>
         <HomePage />
       </FullLayout>

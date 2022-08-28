@@ -65,7 +65,7 @@ const ProductPage = () => {
         <section>
           {!isLoading && topicList.length > 0 && (
             <div>
-              <MainTitle>
+              <MainTitle data-aos-duration="1000" data-aos="fade-down">
                 Our Products<TitleColor>.</TitleColor>
               </MainTitle>
               <S.ChipContainer>
@@ -89,24 +89,25 @@ const ProductPage = () => {
               </S.ChipContainer>
 
               <hr />
+              <div style={{ overflowX: "auto" }}>
+                <S.Table>
+                  <S.Th>No</S.Th>
+                  <S.Th>Name</S.Th>
+                  <S.Th>Contents</S.Th>
+                  <S.Th>Packing</S.Th>
 
-              <S.Table>
-                <S.Th>No</S.Th>
-                <S.Th>Name</S.Th>
-                <S.Th>Contents</S.Th>
-                <S.Th>Packing</S.Th>
-
-                {products
-                  .filter((item: any) => item.type === topic)
-                  .map(({ name, contents, packing }: any, index: number) => (
-                    <S.Tr key={name + index}>
-                      <S.Td>{index + 1}</S.Td>
-                      <S.Td style={{ textAlign: "center" }}>{name}</S.Td>
-                      <S.Td>{contents}</S.Td>
-                      <S.Td>{packing}</S.Td>
-                    </S.Tr>
-                  ))}
-              </S.Table>
+                  {products
+                    .filter((item: any) => item.type === topic)
+                    .map(({ name, contents, packing }: any, index: number) => (
+                      <S.Tr key={name + index}>
+                        <S.Td>{index + 1}</S.Td>
+                        <S.Td style={{ textAlign: "center" }}>{name}</S.Td>
+                        <S.Td>{contents}</S.Td>
+                        <S.Td>{packing}</S.Td>
+                      </S.Tr>
+                    ))}
+                </S.Table>
+              </div>
             </div>
           )}
         </section>

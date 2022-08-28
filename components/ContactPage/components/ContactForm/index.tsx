@@ -65,18 +65,20 @@ const Contact = () => {
       <S.Row>
         <div>
           <S.ContactTitle>
-            <S.SubTitle>Contact Us</S.SubTitle>
-            <S.Title>
+            <S.SubTitle data-aos-duration="1000" data-aos="fade-down">
+              Contact Us
+            </S.SubTitle>
+            <S.Title data-aos-duration="1000" data-aos="fade-right">
               Let&apos;s Talk Question<TitleColor>.</TitleColor>
             </S.Title>
           </S.ContactTitle>
-          <S.Description>
+          <S.Description data-aos-duration="1000" data-aos="fade-right">
             If you have any further questions or queries please do not hesitate
             to get in touch.
           </S.Description>
 
           <form onSubmit={handleSubmit(onSubmit)}>
-            <S.FormGrp>
+            <S.FormGrp data-aos-duration="1000" data-aos="fade-right">
               <S.Lable>Your Name*</S.Lable>
               <S.Input
                 {...register("name", {
@@ -90,7 +92,7 @@ const Contact = () => {
               )}
             </S.FormGrp>
 
-            <S.FormGrp>
+            <S.FormGrp data-aos-duration="1300" data-aos="fade-right">
               <S.Lable>Your Email*</S.Lable>
               <S.Input
                 {...register("email", {
@@ -108,7 +110,7 @@ const Contact = () => {
               )}
             </S.FormGrp>
 
-            <S.FormGrp>
+            <S.FormGrp data-aos-duration="1500" data-aos="fade-right">
               <S.Lable>Your Message*</S.Lable>
               <S.TextArea
                 {...register("message", {
@@ -123,12 +125,12 @@ const Contact = () => {
               )}
             </S.FormGrp>
 
-            <CardButton type="submit">Send Now</CardButton>
+            <CardButton data-aos-duration="1600" data-aos="fade-up" type="submit">Send Now</CardButton>
           </form>
         </div>
 
         <S.ContectInto>
-          <S.ContactImgContainer>
+          <S.ContactImgContainer data-aos-duration="1000" data-aos="zoom-in">
             <S.ContactImg src="imgs/contact_img.png" alt="" />
           </S.ContactImgContainer>
           <div>

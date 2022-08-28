@@ -5,6 +5,7 @@ import SingleQuestion from "./question";
 import { TitleColor } from "../shared/StyledComponents";
 import * as S from "./StyledComponent";
 import Image from "../shared/NewImage";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const FAQPage = () => {
   return (
@@ -14,6 +15,8 @@ const FAQPage = () => {
           Frequently Asked Questions<TitleColor>.</TitleColor>
         </S.MainTitle>
         <Image
+          data-aos-duration="1000"
+          data-aos="fade-left"
           src="/imgs/faq.svg"
           objectPosition="center"
           alt="maxcess pharma faq"
@@ -22,13 +25,8 @@ const FAQPage = () => {
       <S.QuestionWrapper className="smoll-scrollbar">
         {data.length && (
           <S.HeaderInfo>
-            {data.map((question) => {
-              return (
-                <SingleQuestion
-                  key={question.id}
-                  {...question}
-                ></SingleQuestion>
-              );
+            {data.map(question => {
+              return <SingleQuestion key={question.id} {...question} />;
             })}
           </S.HeaderInfo>
         )}

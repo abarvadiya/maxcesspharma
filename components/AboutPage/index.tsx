@@ -57,10 +57,10 @@ const AboutPage = () => {
     <Container>
       <Row>
         <DetailsWrapper>
-          <MainTitle>
+          <MainTitle data-aos-duration="1000" data-aos="fade-down">
             What is <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
-          <p>
+          <p data-aos-duration="1000" data-aos="fade-right">
             Maxcess Pharma is one of the most trusted pharmaceutical exporter in
             India . We are a brand name in the pharmaceutical industry who are
             always consistent with their services and are one of the leading
@@ -83,6 +83,8 @@ const AboutPage = () => {
         </DetailsWrapper>
         <ImageWrapper>
           <Image
+            data-aos-duration="1000"
+            data-aos="fade-left"
             src="/imgs/about_1.svg"
             objectPosition="center"
             alt="maxcess pharma about-us"
@@ -94,10 +96,10 @@ const AboutPage = () => {
 
       <RowRevers>
         <DetailsWrapper>
-          <MainTitle>
+          <MainTitle data-aos-duration="1000" data-aos="fade-down">
             Why <TitleColor>Maxcess Pharma</TitleColor>?
           </MainTitle>
-          <p>
+          <p data-aos-duration="1000" data-aos="fade-left">
             Working on almost all domains of medicines, Kings Global hold an
             important name in dealing with pharmaceuticals ranges of Oncology,
             Nephrology, Gastroenterology, Vaccines, and many more. However,
@@ -120,6 +122,8 @@ const AboutPage = () => {
         </DetailsWrapper>
         <ImageWrapper>
           <Image
+            data-aos-duration="1000"
+            data-aos="fade-right"
             src="/imgs/about_2.svg"
             objectPosition="center"
             alt="maxcess pharma about-us"

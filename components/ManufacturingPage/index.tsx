@@ -57,10 +57,10 @@ const ManufacturingPage = () => {
     <Container>
       <Row>
         <DetailsWrapper>
-          <MainTitle>
-            Maxcess pharma <TitleColor>Manufacturing</TitleColor>.
+          <MainTitle data-aos-duration="1000" data-aos="fade-down">
+            Maxcess Pharma <TitleColor>Manufacturing</TitleColor>.
           </MainTitle>
-          <p>
+          <p data-aos-duration="1000" data-aos="fade-up">
             Maxcess pharma believes in meeting the unmet medical needs of
             Healthcare Industry with innovative and more importantly; quality
             products. We make sure of maintaining the best quality check backed
@@ -74,7 +74,9 @@ const ManufacturingPage = () => {
         </DetailsWrapper>
         <ImageWrapper>
           <Image
-            src="/imgs/about_1.svg"
+            data-aos-duration="1000"
+            data-aos="fade-right"
+            src="/imgs/hero_2.svg"
             objectPosition="center"
             alt="maxcess pharma about-us"
             height={250}
@@ -85,10 +87,10 @@ const ManufacturingPage = () => {
 
       <RowRevers>
         <DetailsWrapper>
-          <MainTitle>
+          <MainTitle data-aos-duration="1000" data-aos="fade-down">
             More About <TitleColor>Manufacturing</TitleColor>.
           </MainTitle>
-          <p>
+          <p data-aos-duration="1000" data-aos="fade-up">
             In the initial stage at our research centre, we develop the
             formulations; process them till they are stable and ready for
             commercialization. We also have tie-up with contract manufacturers.
@@ -103,6 +105,8 @@ const ManufacturingPage = () => {
         </DetailsWrapper>
         <ImageWrapper>
           <Image
+            data-aos-duration="1000"
+            data-aos="fade-left"
             src="/imgs/about_2.svg"
             objectPosition="center"
             alt="maxcess pharma about-us"

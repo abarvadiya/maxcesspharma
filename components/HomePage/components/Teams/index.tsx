@@ -12,7 +12,7 @@ const Teams = () => {
       name: "Mr Vishwas Jani",
       key: "vishwas",
       designation: "Founder & CEO",
-      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gandhinagar, Gujar+at.`,
+      details: `Mr Vishwas Ashwinkumar Jani younger entrepreneur from Gandhinagar, Gujarat.`,
       profile: {
         src: "/imgs/users/vishwas_jani.jpeg",
         size: 250,

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as MS from "../ProductPage/StyledComponents";
 
 export const Container = styled.section`
   margin: 8rem;
@@ -47,9 +48,19 @@ export const ImageWrapper = styled.div`
 
 export const CountyTable = styled.div`
   padding: 0 5rem;
+  overflow-x: auto;
 
   @media only screen and (max-width: 768px) {
     padding: 0px;
     margin-bottom: 2rem;
+  }
+`;
+
+export const Table = styled(MS.Table)`
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
   }
 `;

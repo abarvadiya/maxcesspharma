@@ -3,9 +3,10 @@ import CountUp from "react-countup";
 import styled from "styled-components";
 import { green } from "../../../../styles/colors";
 
-const Row = styled.div`
+const Row = styled.section`
   display: flex;
   justify-content: center;
+  margin: 4rem 0;
 
   @media only screen and (max-width: 768px) {
     display: grid;
@@ -14,7 +15,7 @@ const Row = styled.div`
 
   @media only screen and (max-width: 740px) {
     display: block;
-    margin-top: 30%;
+    margin: 16% 0;
   }
 `;
 
@@ -105,7 +106,7 @@ function index() {
     { lable: "Years Experience", count: 3, suffix: "+" },
     { lable: "Products", count: 224, suffix: "+" },
     { lable: "Repeated Clients", count: 82, suffix: "%" },
-    { lable: "Country", count: 48, suffix: "+" },
+    { lable: "Countrys", count: 48, suffix: "+" },
   ];
 
   return (
@@ -113,8 +114,7 @@ function index() {
       {datas.map((item, index) => (
         <div
           key={index}
-          data-aos-duration={`${index}000`}
-          data-aos-offset={`${index}00`}
+          data-aos-duration={`${index - 4}0`}
           data-aos="fade-up"
         >
           <Card {...item} />

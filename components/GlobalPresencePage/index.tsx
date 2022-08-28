@@ -29,15 +29,15 @@ const GlobalPresencePage = () => {
   return (
     <>
       <S.DetailsWrapper>
-        <S.MainTitle>
+        <S.MainTitle data-aos-duration="1000" data-aos="fade-down">
           Our Global Presence<TitleColor>.</TitleColor>
         </S.MainTitle>
-        <S.Text>
+        <S.Text data-aos-duration="1000" data-aos="fade-left">
           Global Economy is expanding, increasing opportunities and opening
           doors to new markets that have never explored before. With
           opportunity, the increased chances of facing the competition increase.
         </S.Text>
-        <S.Text>
+        <S.Text data-aos-duration="1000" data-aos="fade-left">
           To make more impact on the global economy, we are striving hard to
           expand more with a clear intention to grow and improve world&apos;s
           economy. Want to know more about our global presence? Mail us at
@@ -47,6 +47,8 @@ const GlobalPresencePage = () => {
       </S.DetailsWrapper>
       <S.ImageWrapper>
         <Image
+          data-aos-duration="1000"
+          data-aos="fade-up"
           src="/imgs/map_expand.png"
           objectPosition="center"
           alt="maxcess pharma global presence"
@@ -55,7 +57,7 @@ const GlobalPresencePage = () => {
       </S.ImageWrapper>
 
       <S.CountyTable>
-        <MS.Table>
+        <S.Table>
           <tbody>
             <tr>
               <MS.Th>No</MS.Th>
@@ -76,7 +78,7 @@ const GlobalPresencePage = () => {
               )
             )}
           </tbody>
-        </MS.Table>
+        </S.Table>
       </S.CountyTable>
     </>
   );

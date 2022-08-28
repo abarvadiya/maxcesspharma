@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-
 // Components
 import * as S from "./StyledComponent";
 
-const Question = ({ title, info }: any) => {
+const Question = ({ title, info, id }: any) => {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <S.Question>

@@ -15,7 +15,7 @@ const Homepage = () => {
     <S.Wrapper>
       {/* <Slider /> */}
       {/* <Patnears /> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <CountUp />
 
       <GetIntoTouch />
