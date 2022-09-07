@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 // Components
 import * as S from "./StyledComponents";
 import Logo from "./components/Logo";
-import PlayButton from "./components/PlayButton";
 import Links from "./components/Links";
 
 const Navbar = () => {
@@ -27,7 +26,7 @@ const Navbar = () => {
       <S.SubWrapper>
         <S.NavbarContainer>
           <Logo />
-          <Links />
+          <Links isWhite={scrollPosition > 0}/>
           {/* <PlayButton /> */}
         </S.NavbarContainer>
       </S.SubWrapper>

@@ -1,9 +1,9 @@
 // Utils
 import styled from "styled-components";
-import { green } from "../../../../styles/colors";
 
 interface TextI {
   isActive: boolean;
+  isScroll: boolean;
 }
 
 export const Wrapper = styled.div`
@@ -44,18 +44,24 @@ export const Text = styled.span`
 `;
 
 export const LinkAnchor = styled.a<TextI>`
-  color: #1e4b57;
   padding: 0 15px;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: ${(props) => (props.isActive ? "#00a651" : "#666")};
+  color: ${props =>
+    props.isActive
+      ? props.isScroll
+        ? "red"
+        : "#000"
+      : props.isScroll
+      ? "#000"
+      : "#353535c7"};
   transition: all 0.35s ease-out;
   transform-origin: center;
 
   &:hover {
-    color: ${green};
+    color: #000;
   }
 `;
 

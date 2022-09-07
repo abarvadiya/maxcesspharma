@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-import useWindowDimensions from "../../../../hooks/useWindowDimensions";
 
 const SectionCenter = styled.div`
   @media only screen and (max-width: 768px) {
@@ -20,24 +19,18 @@ const SectionCenter = styled.div`
 `;
 
 const ImageSlider = () => {
-  const { height, width } = useWindowDimensions();
-
   const images = [
     {
       alt: "slider img 1",
-      src: "/imgs/slider/banner_1.jpg",
+      src: "/imgs/slider/banner_01.jpg",
     },
     {
       alt: "slider img 2",
-      src: "/imgs/slider/banner_2.jpg",
+      src: "/imgs/slider/banner_02.jpg",
     },
     {
       alt: "slider img 3",
-      src: "/imgs/slider/banner_3.jpg",
-    },
-    {
-      alt: "slider img 4",
-      src: "/imgs/slider/banner_4.jpg",
+      src: "/imgs/slider/banner_03.jpg",
     },
   ];
 
@@ -65,7 +58,7 @@ const ImageSlider = () => {
               src={image.src}
               objectPosition="center"
               alt={image.alt}
-              height={width < 426 ? 55 : 50}
+              height={50}
             />
           </SwiperSlide>
         ))}

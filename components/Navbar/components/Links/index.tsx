@@ -14,13 +14,12 @@ import MobileMenu from "../MobileMenu";
 import * as S from "./StyledComponents";
 
 // Data
-import linksData from '../linksData'
+import linksData from "../linksData";
 
-
-const Links = () => {
+const Links = ({ isWhite }: { isWhite: boolean }) => {
   const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
   const router = useRouter();
-  
+
   return (
     <S.Wrapper>
       <S.MenuIconWrapper onClick={() => setIsOpenMenu(prevState => !prevState)}>
@@ -30,16 +29,14 @@ const Links = () => {
           <GiHamburgerMenu size={20} color="black" />
         )}
       </S.MenuIconWrapper>
-      <MobileMenu
-        isOpenMenu={isOpenMenu}
-        setIsOpenMenu={setIsOpenMenu}
-      />
+      <MobileMenu isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu} />
       <S.Container>
         {linksData.map((link, i) => (
           <S.Button type="button" key={link.title}>
             <Link href={link.url} passHref>
               <S.LinkAnchor
                 isActive={router.pathname === link.url}
+                isScroll={isWhite}
                 target={link.url.startsWith("https") ? "_blank" : "_self"}
               >
                 {link.Icon}
@@ -51,6 +48,6 @@ const Links = () => {
       </S.Container>
     </S.Wrapper>
   );
-}
+};
 
 export default Links;

@@ -19,8 +19,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
+          enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
         });
 
       const initialProps = await Document.getInitialProps(ctx);
@@ -40,8 +39,8 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal();
     }
-  } // below is completely optional...
-  // create a custom 'render' method for SEO tags
+  }
+
   render() {
     return (
       <Html lang="en">
@@ -58,15 +57,13 @@ export default class MyDocument extends Document {
             content="B-I6F18gDigwegKX-aXiZmKSJr5b_AjVSyE2Xub-Tsw"
           />
 
-          <meta
-            httpEquiv="Content-Type"
-            content="text/html; charset=utf-8"
-            charSet="utf-8"
-          />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta
             httpEquiv="Content-Type"
             content="text/html; charset=ISO-8859-1"
           />
+
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
 
           <meta name="googlebot" content="noindex" />
           <meta name="robots" content="noindex,nofollow" />
@@ -76,19 +73,6 @@ export default class MyDocument extends Document {
           <meta name="geo.placename" content="Ahmedabad" />
           <meta name="geo.position" content="23.021624;72.579707" />
           <meta name="ICBM" content="23.021624, 72.579707" />
-
-          <meta
-            name="description"
-            content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
-          />
-          <meta property="og:title" content="Maxcess Pharma" />
-          <meta
-            property="og:description"
-            content="Maxcess Pharma Pvt. Ltd. is a limited liability partnership limited company based in Ahmedabad, India and was incorporated on 31/12/2019."
-          />
-          <meta property="og:url" content="https://www.maxcesspharma.com" />
-          <meta property="og:type" content="website" />
-          <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />

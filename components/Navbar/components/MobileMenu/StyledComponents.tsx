@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { pink } from "../../../../styles/colors";
 
 interface TextI {
   isActive: boolean;
@@ -16,7 +17,7 @@ export const Wrapper = styled.div<WrapperI>`
   right: 0;
   transition: transform 0.5s ease-in-out;
   transform: translateY(-57rem);
-  transform: ${(props) =>
+  transform: ${props =>
     props.isOpen ? "translateY(0rem)" : "translateY(-57rem)"};
   z-index: 1000;
 `;
@@ -38,7 +39,8 @@ export const MenuLink = styled.a<TextI>`
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  color: ${(props) => (props.isActive ? "#000" : "#666")};
+  color: ${props => (props.isActive ? "#177f91" : "#000")};
+  font-weight: ${props => (props.isActive ? 700 : 500)};
   transition: all 0.35s ease-out;
   transform-origin: center;
 
